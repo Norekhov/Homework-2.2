@@ -14,4 +14,8 @@ public abstract class Transport {
     public int getWheelsCount() {
         return wheelsCount;
     }
+
+    public abstract void updateTyre();
+    public abstract void check();
+
 }
